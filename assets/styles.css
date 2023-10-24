@@ -1,0 +1,416 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 20px 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  padding: 14px 40px;
+  border-radius: 30px;
+  background: #0057FF;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.menu {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-img {
+  display: flex;
+  align-items: center;
+}
+
+.menu-link {
+  width: 405px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.menu-link-name {
+  color: #000;
+}
+
+.advert {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.advert-title-heading {
+  color: #000;
+  font-family: 'Oswald', sans-serif;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 66px;
+  text-transform: uppercase;
+  padding-bottom: 52px;
+}
+
+.advert-title-text {
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 17px;
+}
+
+.advert-title-jobs {
+  display: flex;
+  align-items: center;
+}
+
+.advert-title-jobs {
+  padding-bottom: 40px;
+}
+
+.advert-title-jobs-person-name {
+  padding-left: 20px;
+  color: #000;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.stars {
+  padding-left: 20px;
+}
+
+.advert-tiitle-btn {
+  background: #FFA332;
+}
+
+.solution {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.solution-title {
+  color: #0057FF;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding-bottom: 4px;
+}
+
+.solution-heading {
+  color: #000;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+
+.solution-text {
+  width: 693px;
+  padding-top: 39px;
+  color: #000;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 77px;
+}
+
+.solution-link {
+  padding-top: 40px;
+  color: #000;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cards-one {
+  width: 540px;
+}
+
+.one-heading {
+  color: #000;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-bottom: 45px;
+}
+
+.one-text {
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 37px;
+}
+
+.one-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+
+.one-customer {
+  width: 212px;
+}
+
+.one-email {
+  width: 212px;
+}
+
+
+.customer-heading {
+  padding-top: 28px;
+  padding-bottom: 16px;
+  color: #000;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.customer-text {
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.cards-two {
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+  padding: 0 0 55px 0;
+}
+
+.cards-two-heading {
+  padding-top: 57px;
+  padding-bottom: 26px;
+  color: #000;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 29px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.cards-two-text {
+  padding-bottom: 17px;
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 26px;
+  width: 460px;
+}
+
+.two-input {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input-head {
+  display: flex;
+  gap: 25px;
+}
+
+.two-input input {
+  padding: 20px;
+  border-radius: 6px;
+  border: 1px solid #E7E7E7;
+  background: #F8F8F8;
+  color: #000;
+  font-family: Roboto;
+  font-size: 15px;
+  outline: none;
+
+}
+
+textarea {
+  outline: none;
+  padding: 20px;
+  border-radius: 6px;
+  border: 1px solid #E7E7E7;
+  background: #F8F8F8;
+  color: #000;
+  font-family: Roboto;
+  font-size: 15px;
+  /* height: 100px; */
+  resize: none;
+  margin-bottom: 38px;
+}
+
+.two-btn {
+  width: 460px;
+}
+
+.trusted {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.trusted-box {
+  width: 540px;
+}
+
+.box-heading {
+  color: #000;
+  font-family: Oswald;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-bottom: 48px;
+}
+
+.box-text {
+  color: #000;
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 26px;
+  padding-bottom: 58px;
+}
+
+.box-table {
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: 1px solid #E7E7E7;
+}
+
+.box-table li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 40px;
+}
+
+.box-table-text {
+  color: #000;
+  font-family: Oswald;
+  font-size: 16px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.marceting-ticket {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.marketing {
+  width: 540px;
+  padding: 15px;
+}
+
+.marketing-heading {
+  color: #000;
+  font-family: Oswald;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-bottom: 49px;
+}
+
+.marketing-text {
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 24px;
+  padding-bottom: 36px;
+}
+
+.marketing-percentage li {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.persentage-text {
+  color: #000;
+  font-family: Oswald;
+  font-size: 19px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.persentage-much {
+  width: 540px;
+  height: 4px;
+  border-radius: 100px;
+  background: #EBEBEB;
+}
+
+.ticket-name {
+  background: url(./img/notebook.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 540px;
+}
